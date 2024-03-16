@@ -1,9 +1,7 @@
-from machine import Pin
 from machine import ADC
-import time
-from FrameCalculator import calcframe
-from SendFrame import transmit_frame
-import DshotFunctions
+from Dshot.FrameCalculator import calcframe
+from Dshot.SendFrame import transmit_frame
+from Dshot import DshotFunctions
 
 #Used as control input for testing
 pot = ADC(28)
