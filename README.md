@@ -4,7 +4,7 @@ A very unfinished project for a meltybrain spinner (combat robot) in micropython
 Currently working:
 - 
 - Checksum calculations.
-- Single directional Dshot up to Dshot 1200 (bidirectional may be partially working, but I do not have a way to test it yet)
+- Single directional Dshot up to Dshot 1200
 - Multiple ESCs can be controlled independently.
 
 Not working:
@@ -13,3 +13,4 @@ Not working:
 - Anything regarding the accelerometer (H3LIS331DL)
 - Communication with the transmitter (NRF24L01+)
 - The part where it melts.
+- Bidirectional Dshot is not currently implemented. I have tried to get it to work, but I am not sure if my ESCs support it/
