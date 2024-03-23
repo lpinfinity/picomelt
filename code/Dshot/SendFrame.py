@@ -5,7 +5,7 @@ import machine
 
 internal_pin = 0
 
-machine.freq(270000000)
+# machine.freq(250000000)
 
 @asm_pio(sideset_init=PIO.OUT_LOW, out_shiftdir=PIO.SHIFT_LEFT)
 def program():
