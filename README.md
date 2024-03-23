@@ -13,4 +13,4 @@ Not working:
 - Anything regarding the accelerometer (H3LIS331DL)
 - Communication with the transmitter (NRF24L01+)
 - The part where it melts.
-- Bidirectional Dshot is not currently implemented. I have tried to get it to work, but I am not sure if my ESCs support it/
+- Bidirectional Dshot is not currently implemented. I have tried to get it to work, but I am not sure if my ESCs support it.
